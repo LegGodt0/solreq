@@ -1,0 +1,35 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(251, 222, 227);
+    padding: 0 100px;
+}
+
+header {
+    display: flex;
+    padding: 20px 0;
+}
+
+.section-1 {
+    background-color: aliceblue;
+    margin: 10px 0;
+    border: 1px solid black;
+    display: grid;
+    row-gap: 10px;
+    padding: 10px 0;
+}
+
+.section-1>a:first-child {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
+}
